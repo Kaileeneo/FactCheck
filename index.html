@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="factCheckLogo.jpeg">
+    <link rel="stylesheet" href="factCheck.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>FACT CHECK</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="head">FACT OR CAP?</h1>
+        <p class="desc">Let's see if you know what your talking about. Enter your opinion below and let the computer decide your fate.</p>
+        <textarea name="opinion" id="opinion" cols="50" rows="3" placeholder="ENTER OPINION HERE.."> </textarea><br>
+        <button id="check" onclick="factCheck()">CHECK</button>
+        <p class="answer" id="answer"></p>
+        <span class="material-symbols-outlined" id="reset" onclick="reset()">
+            refresh
+        </span>
+    </div>
+
+    <script src="factCheck.js"></script>
+</body>
+</html>

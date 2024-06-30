@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inconsolata:wght@200..900&family=Playwrite+AU+NSW:wght@100..400&display=swap');
+
+*{
+    font-family: "Comfortaa", sans-serif;
+    background: #c4fefd;
+}
+
+.container{
+    margin-left: 135px;
+    margin-top: 50px;
+    margin-right: 145px;
+    border: none;
+    box-shadow: 0 0 15px 0;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    background: #37fefb;
+    border-radius: 6px;
+}
+
+.head{
+    background: #37fefb;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.desc{
+    background: #37fefb;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+textarea{
+    background: #37fefb;
+    border: 2px solid;
+    margin-bottom: 12px;
+    border-radius: 7px;
+}
+
+textarea::placeholder{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Playwrite AU NSW", cursive;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+button{
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: "Inconsolata", monospace;
+    margin: 12px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #1dfaf7;
+}
+
+button:hover{
+    box-shadow: 0 0 12px 0;
+    transition: all .2s;
+}
+
+button:active{
+    background-color: #a0bdbd;
+    transition: all .3s;
+}
+
+#answer{
+    font-family: "Inconsolata", monospace;
+    font-size: 25px;
+    background-color: aliceblue;
+    margin-right: 120px;
+    padding: 18px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+
+#answer:hover{
+    box-shadow: 0 0 12px 0;
+    transition: ease .2s;
+}
+
+.material-symbols-outlined{
+    background-color: #37fefb;
+}
+
+span{
+    cursor: pointer;
+}
+
+span:hover{
+    color: aliceblue;
+    transition: all ease-out .2s;
+}
